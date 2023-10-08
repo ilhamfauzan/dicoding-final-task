@@ -134,4 +134,8 @@
     nav ul.active + .menu-toggle .bar {
         background-color: transparent;
     }
+
+    aside {
+        margin: 50px 50px;
+    }
 }

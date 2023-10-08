@@ -32,6 +32,7 @@ header {
     top: 0;
     background-color: white;
 }
+
 nav{
     display: flex;
     gap: 40px;
@@ -50,6 +51,42 @@ nav li {
 nav a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+/* end of header */
+
+.flex {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content h1 {
+    font-size: 30px;
+    margin: 70px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color)
+}
+
+#content h3 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+    margin: 50px 0 40px 0;
+}
+
+.popular-card {
+    border-radius: 40px;
+    background-color: var(--second-color);
+    margin-bottom: 20px;
+}
+
+.popular-card img {
+    gap: 40px;
+    width: 200px;
 }
 
 .showcase {
@@ -87,40 +124,7 @@ button:hover {
     background-color: var(--text-color);
 }
 
-main {
-    /* margin-top: 100px; */
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-main h1 {
-    font-size: 30px;
-    margin: 70px 0 40px 0;
-    display: flex;
-    justify-content: center;
-    color: var(--text-color)
-}
-
-main h3 {
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    color: var(--text-color);
-    margin: 50px 0 40px 0;
-}
-
-main .popular-card {
-    border-radius: 40px;
-    background-color: var(--second-color);
-    margin-bottom: 20px;
-}
-
-main .popular-card img {
-    gap: 40px;
-    width: 200px;
-}
 
 /* agar foto headphones tidak kecil */
 #headphones .flex .item-list .popular-card img {
@@ -150,7 +154,7 @@ footer {
 }
 
 aside {
-    margin-top: 50px;
+    margin: 50px 450px;
 }
 
 .help-card {

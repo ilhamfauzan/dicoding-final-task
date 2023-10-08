@@ -1,0 +1,179 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+:root {
+    --main-color: #f5f2ec;
+    --second-color: #E3EEFC;
+    --text-color: rgb(63, 60, 60);
+    --icon-font: 'Dela Gothic One', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-margin-top: 200px;
+    scroll-behavior: smooth;
+}
+
+header {
+    margin: auto;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    background-color: white;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.showcase {
+    box-sizing: border-box;
+    margin: 0 200px;
+    border-radius: 40px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showcase img {
+    margin-left: 40px;
+}
+
+.showcase-right {
+    color: var(--text-color);
+    font-size: 35px;
+    margin-right: auto;
+}
+
+button {
+    margin-top: 10px;
+    color: var(--text-color);
+    font-size: 18px;
+    border: 3px solid var(--text-color);
+    border-radius: 10px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: var(--text-color);
+}
+
+main {
+    /* margin-top: 100px; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 30px;
+    margin: 70px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color)
+}
+
+main h3 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+    margin: 50px 0 40px 0;
+}
+
+main .popular-card {
+    border-radius: 40px;
+    background-color: var(--second-color);
+    margin-bottom: 20px;
+}
+
+main .popular-card img {
+    gap: 40px;
+    width: 200px;
+}
+
+/* agar foto headphones tidak kecil */
+#headphones .flex .item-list .popular-card img {
+    margin: 40px 0;
+}
+
+main .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 50px;
+}
+
+.item-list ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    font-size: 13px;
+    margin-top: 30px;
+    border-top: .5px solid rgba(0, 0, 0, 0.058);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    margin-top: 50px;
+}
+
+.help-card {
+    border-radius: 40px;
+    background-color: var(--main-color);
+    margin-bottom: 20px;                                        
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-left img {
+    width: 300px;
+}
+
+.help-right {
+    color: var(--text-color);
+    font-size: 25px;
+    margin-right: auto;
+}
+
+.icon {
+    font-family: var(--icon-font);
+    font-size: 25px;
+}
